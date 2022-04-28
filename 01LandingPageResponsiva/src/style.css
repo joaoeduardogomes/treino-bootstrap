@@ -2,17 +2,49 @@
 
 .imagem-carrossel-um, .imagem-carrossel-dois {
     object-fit: cover;
-    height: 70vh;
+    height: 80vh;
 }
 
 .imagem-carrossel-um {
     object-position: 0 80%;
 }
 
+/* TÍTULO */
+
 .fonte-titulo {
     font-family: 'Pacifico', cursive;
 }
 
+.sombreado {
+    text-shadow: 3px 6px 8px rgba(0, 0, 0, 0.715);
+}
+
 .cor-especial {
-    color: darkred;
+    color: darkred!important;
+}
+
+/* CARD */
+#receitas article {
+    max-width: 18rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 24vh;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+}
+
+.botao-cor-especial:hover{
+    color: white;
+    background-color: tomato;
+    border-color: tomato;
 }
